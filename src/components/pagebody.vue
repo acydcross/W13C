@@ -10,12 +10,15 @@
 </template>
 
 <script>
+import PlayList from "./playlist.vue";
+import SongList from "./songlist.vue";
+
 export default {
-    name: "page-body",
-    components: {
-        PlayList,
-        SongList
-    }
+  name: "page-body",
+  components: {
+    PlayList,
+    SongList
+  }
 };
 </script>
 
