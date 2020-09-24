@@ -1,4 +1,7 @@
 <template>
+  <div class="song-list">
+    <song-item />
+  </div>
     
 </template>
 
@@ -13,5 +16,12 @@ export default {
 </script>
 
 <style scoped>
-
+.song-list {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  height: 50vh;
+}
 </style>
