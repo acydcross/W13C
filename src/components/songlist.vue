@@ -1,5 +1,6 @@
 <template>
   <div class="song-list">
+    <img alt="Vue logo" src="./assets/logo.png" />
     <song-item />
   </div>
     

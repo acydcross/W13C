@@ -1,5 +1,7 @@
 <template>
   <div class="songs">
+    <img alt="Vue logo" src="./assets/logo.png" />
+    <h2>{{ song }}</h2>
     <button id="press-me" @click=" " v-if=" "></button>
     <button id="press-me" @click=" " v-else=" "></button>
     <button></button>
@@ -10,6 +12,12 @@
 <script>
 export default {
   name: "song-data"
+  data: function() {
+    return {
+      song: this.$store.state.songList,
+      author: this.$store.state.songAuthor
+    }
+  }
 };
 </script>
 

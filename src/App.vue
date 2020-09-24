@@ -2,7 +2,6 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
     <page-body />
-    <h2>{{ song.title }}</h2>
     <button></button>
     <button></button>
     <button></button>
